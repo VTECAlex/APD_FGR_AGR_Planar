@@ -12,11 +12,16 @@ from p_rings_metal_openings import p_metal_contact_structure
 
 radius = 250
 width = 80
-distance_from_mesa  = 30
+distance_from_mesa  = 90
 
 layer_metallization =8
-custom_angle1_metal = 45
-custom_angle2_metal = 45
+custom_angle1_metal = 22
+custom_angle2_metal = 22
+custom_angle1_etch_semicond = custom_angle1_metal
+custom_angle2_etch_semicond = custom_angle2_metal
+custom_angle1_sio_etch = custom_angle1_metal
+custom_angle2_sio_etch = custom_angle2_metal
+
 bondpad_lenght = 500
 trapezoide_height = 200
 trapezoide_side1 = 200
@@ -24,13 +29,11 @@ trapezoide_side2 = 80
 
 width_etch_semicond = 70
 layer_etch =2
-custom_angle1_etch_semicond = 45
-custom_angle2_etch_semicond = 10
+
 
 width_etch_sio = 60
 layer_etch_sio = 3
-custom_angle1_sio_etch = 45
-custom_angle2_sio_etch = 7
+
 n_metal_ring_process(
     radius,
     width,
